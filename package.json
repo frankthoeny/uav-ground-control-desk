@@ -1,5 +1,6 @@
 {
   "name": "uav-ground-control-desk",
+  "author": "Frank Thoeny",
   "private": true,
   "version": "1.0.0",
   "type": "module",
