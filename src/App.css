@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  --army-olive: #4b5320;
+  --army-olive-dark: #3a4615;
+  --army-olive-soft: #8a9a5b;
+  --army-cream: #e5e8c4;
+  --army-charcoal: #11160f;
+}
+
+.App {
+  min-height: 100vh;
+  position: relative;
+  overflow: visible;
+  background: radial-gradient(circle at top left, rgba(138, 154, 91, 0.24), transparent 25%), linear-gradient(180deg, #1b2114 0%, #0f120c 100%);
+  color: var(--army-cream);
+}
+
+.sidebar-toggle-button {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+  z-index: 10001;
+  border: 1px solid var(--army-olive-soft);
+  background: var(--army-olive-dark);
+  color: var(--army-cream);
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.sidebar-toggle-button:hover {
+  background: var(--army-olive);
+}
+
+.map-area {
+  position: relative;
+  min-height: 100vh;
+  overflow: visible;
+}
+
+#map,
+#mapContainer {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
